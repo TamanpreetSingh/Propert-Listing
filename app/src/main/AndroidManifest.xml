@@ -1,0 +1,189 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tamanpreet.propertylisting">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.tamanpreet.propertylisting.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>/
+        <activity
+            android:name=".AddNew"
+            android:label="Add New">
+        </activity>
+        <activity
+            android:name=".SelectAddType"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".SelectSearchType"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            ></activity>
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Welcome User"
+            ></activity>
+
+
+
+        <activity
+            android:name=".AddBooth"
+            android:label="Add Booth"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".AddHousingBoard"
+            android:label="Add Housing Board Flat"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".AddKothi"
+            android:label="Add Kothi"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".AddSco"
+            android:label="Add SCO"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".AddSociety"
+            android:label="Add Society"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".SearchPage"
+            android:label="Search Page"
+            >
+
+        </activity>
+        <activity
+            android:name=".SearchSelect"
+            android:label="Search Page"
+            ></activity>
+        <activity
+            android:name=".SearchBooth"
+            android:label="Search Page"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            ></activity>
+        <activity
+            android:name=".SearchHb"
+            android:label="Search Page"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            ></activity>
+        <activity
+            android:name=".SearchKothi"
+            android:label="Search Page"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            ></activity>
+        <activity
+            android:name=".SearchSco"
+            android:label="Search Page"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+
+            ></activity>
+        <activity
+            android:name=".SearchSociety"
+            android:label="Search Page"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            ></activity>
+        <activity
+            android:name=".UpdateBooth"
+            android:label="Update Booth"
+            android:theme="@android:style/Theme.NoTitleBar"
+            ></activity>
+        <activity
+            android:name=".UpdateKothi"
+            android:label="Update Kothi"
+            android:theme="@android:style/Theme.NoTitleBar"
+            ></activity>
+        <activity
+            android:name=".UpdateSco"
+            android:label="Update Sco"
+            android:theme="@android:style/Theme.NoTitleBar"
+            ></activity>
+        <activity
+            android:name=".UpdateHb"
+            android:label="Update Housing Board"
+            android:theme="@android:style/Theme.NoTitleBar"
+            ></activity>
+        <activity
+            android:name=".UpdateSociety"
+            android:label="Update Society"
+            android:theme="@android:style/Theme.NoTitleBar"
+            ></activity>
+        <activity
+            android:name=".ListProperty"
+            android:label="List Property"
+            android:theme="@android:style/Theme.NoTitleBar"
+            ></activity>
+
+        <activity
+            android:name=".SocietyList"
+            android:label="Society List"
+            android:theme="@android:style/Theme.NoTitleBar"
+            ></activity>
+
+        <activity
+            android:name=".BoothList"
+            android:label="Booth List"
+            android:theme="@android:style/Theme.NoTitleBar"
+            ></activity>
+
+        <activity
+            android:name=".ScoList"
+            android:label="SCO List"
+            android:theme="@android:style/Theme.NoTitleBar"
+            ></activity>
+
+        <activity
+            android:name=".KothiList"
+            android:label="Kothi List"
+            android:theme="@android:style/Theme.NoTitleBar"
+            ></activity>
+
+        <activity
+            android:name=".HousingBoardList"
+            android:label="HousinBoard List"
+            android:theme="@android:style/Theme.NoTitleBar"
+            ></activity>
+
+        <activity
+            android:name=".forgotPassword"
+            android:label="Forgot Password"
+            android:theme="@android:style/Theme.NoTitleBar"
+            ></activity>
+
+        <activity android:name="login" >  </activity>
+        <activity android:name="signup"> </activity>
+
+    </application>
+
+</manifest>

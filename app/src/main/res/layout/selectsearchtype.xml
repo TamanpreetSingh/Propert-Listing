@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+         android:background="@drawable/b"
+    android:orientation="vertical" >
+    
+<TextView
+    android:id="@+id/Head"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="30dp"
+    android:gravity="center"
+    android:text="Select Property To Search"
+        android:textColor="#fff"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/societySearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginTop="35dp"
+        android:text="Society Flat" />
+
+    <Button
+        android:id="@+id/hbSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginTop="25dp"
+        android:text="HousingBoard Flat" />
+
+    <Button
+        android:id="@+id/kothiSearch"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="25dp"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:text="kothi" />
+    
+    <Button
+        android:id="@+id/scoSearch"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="SCO" />
+
+        <Button
+        android:id="@+id/boothSearch"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Booth" />
+    
+</LinearLayout>

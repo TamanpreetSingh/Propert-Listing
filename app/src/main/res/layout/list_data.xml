@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow >
+     <TextView
+        android:id="@+id/shSellerName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seller Name :"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    
+    <TextView
+        android:id="@+id/shSellerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</TableRow>
+    
+    <TableRow >
+        
+     
+    <TextView
+        android:id="@+id/shSellerNumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seller Number :"
+        android:textAppearance="?android:attr/textAppearanceMedium" />   
+    <TextView
+        android:id="@+id/shSellerNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</TableRow>
+
+    <TableRow >
+       <TextView
+        android:id="@+id/AskingPrice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demand :"
+        android:textAppearance="?android:attr/textAppearanceMedium" />   
+        
+    <TextView
+        android:id="@+id/shSellerPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</TableRow>
+
+    <TableRow >
+
+         <TextView
+             android:id="@+id/shSellerAddress1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Address :"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/shSellerAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+         </TableRow>
+             <TableRow>
+    <TextView
+        android:id="@+id/shSellerSector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/shSellerCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </TableRow>
+    <TableRow >
+       <TextView
+        android:id="@+id/shSellerCondition1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Condition :"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/shSellerCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+</TableLayout>
+
+</LinearLayout>

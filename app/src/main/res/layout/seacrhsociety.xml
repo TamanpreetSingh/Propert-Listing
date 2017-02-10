@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    
+         android:background="@drawable/b">
+         <TextView
+        android:id="@+id/Head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Flat Seacrh"
+        android:layout_gravity="center"
+         android:layout_marginTop="15dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:stretchColumns="1"
+           >
+    <TableRow >
+        <TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Address"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+    <EditText
+        android:id="@+id/addressSsearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+        </EditText>
+       </TableRow>
+       
+      <TableRow >
+        <TextView
+          android:id="@+id/textView6"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Society"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/societySsearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+        </EditText>
+       </TableRow>
+       </TableLayout>
+
+        <Spinner
+            android:id="@+id/spinnerLocalitySSearch1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/sAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         android:text=""/>
+     <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:stretchColumns="1"
+           >
+          <TableRow ><TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Min Amount"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <SeekBar
+              android:id="@+id/seekBarS11"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:indeterminate="false" />
+           <TextView
+          android:id="@+id/seek1text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=""
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+              
+          </TableRow>
+          <TableRow>
+              <TableRow >
+          <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Max Amount"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+              
+          </TableRow>
+
+              <SeekBar
+                  android:id="@+id/seekBarS22"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content" />
+               <TextView
+          android:id="@+id/seek2text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=""
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</TableRow>
+      </TableLayout>
+
+
+      
+      <Button
+        android:id="@+id/submitSsearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+    <ListView 
+        android:id="@+id/searchListSsearch"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+</LinearLayout>

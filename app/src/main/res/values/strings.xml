@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Property Listing</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">About</string>
+    <string name="sellerName">sellerName :</string>
+    <string name="about_body"><![CDATA[
+        This Project is made by Kajal Nayyar and Tamanpreet Singh, to know more go to <a href="https://tamanpreet20.wordpress.com/">tamanpreet20.wordpress.com</a>
+
+    ]]></string>
+    <string name="feedback">feedback</string>
+    <string name="logout">logout</string>
+
+
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+         android:background="@drawable/b"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/Head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Flat Search"
+        android:layout_gravity="center"
+         android:layout_marginTop="15dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:stretchColumns="1"
+           >
+    <TableRow >
+        <TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Address"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+    <EditText
+        android:id="@+id/addressHsearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+        </EditText>
+       </TableRow></TableLayout>
+        <Spinner
+            android:id="@+id/spinnerLocalityHsearch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+            <TextView
+        android:id="@+id/sAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         android:text=""/>
+     <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:stretchColumns="1"
+           >
+          <TableRow ><TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Min Amount"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <SeekBar
+              android:id="@+id/seekBarH1"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" />
+           <TextView
+          android:id="@+id/seek1text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=""
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+              
+          </TableRow>
+          <TableRow>
+              <TableRow >
+          <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Max Amount"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+              
+          </TableRow>
+
+              <SeekBar
+                  android:id="@+id/seekBarH2"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content" />
+               <TextView
+          android:id="@+id/seek2text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=""
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</TableRow>
+      </TableLayout> 
+   
+    <Button
+        android:id="@+id/submitHsearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+    <ListView 
+        android:id="@+id/searchListHsearch"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+  
+</LinearLayout>

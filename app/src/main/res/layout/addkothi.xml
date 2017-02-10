@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+         android:background="@drawable/b"
+   
+     >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/Head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Kothi Details"
+        android:layout_gravity="center"
+         android:layout_marginTop="15dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seller Name"
+       
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/sellerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Nubmer"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/contactNubmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:phoneNumber="true"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Property Address"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+   
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Area"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/spinnerAreaK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+     <TextView
+        android:id="@+id/sAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         android:text=""/>
+    
+ 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asking Price"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/askingPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:phoneNumber="true"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Condition"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <RadioGroup
+        android:id="@+id/radioCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+
+        <RadioButton
+            android:id="@+id/new1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="New" />
+
+        <RadioButton
+            android:id="@+id/old"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Old" />
+
+        <RadioButton
+            android:id="@+id/underConstruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Under Construction" />
+        
+    </RadioGroup>
+   
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Storey"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <RadioGroup
+        android:id="@+id/radioStorey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/single"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Single" />
+
+        <RadioButton
+            android:id="@+id/doubles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Double" />
+
+        <RadioButton
+            android:id="@+id/triple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Triple" />
+         
+    </RadioGroup>
+
+ <CheckBox
+    android:id="@+id/basement"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Basement" />
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Sale"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <CheckBox
+    android:id="@+id/full"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Full" />
+        <CheckBox
+    android:id="@+id/groundC"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ground" />
+        <CheckBox
+    android:id="@+id/firstC"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="First" /></TableRow>
+    <TableRow >
+        <CheckBox
+    android:id="@+id/secondC"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Second" />
+        
+        
+    </TableRow>
+</TableLayout>
+    <Button
+        android:id="@+id/submit"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout></ScrollView>
